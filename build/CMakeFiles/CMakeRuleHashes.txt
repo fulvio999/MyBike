@@ -1,0 +1,4 @@
+# Hashes of file build rules.
+08c2f05dba231bbfe9c0560e07b88ff5 CMakeFiles/MyBike.desktop
+05a3a9bc4630009fe0a96c63f3d05c4a CMakeFiles/MyBike_FILES
+03a42beeeb98bf0ec8f7723cac4b2d7b po/CMakeFiles/mybike.fulvio.pot

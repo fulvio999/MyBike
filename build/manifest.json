@@ -1,15 +1,15 @@
 {
     "name": "mybike.fulvio",
     "description": "Unofficial front-end for CityBikes service",
-    "architecture": "@CLICK_ARCH@",
+    "architecture": "all",
     "title": "MyBike",
     "hooks": {
         "MyBike": {
             "apparmor": "MyBike.apparmor",
-            "desktop":  "MyBike.desktop"
+            "desktop": "MyBike.desktop"
         }
     },
-    "version": "1.0.2",
+    "version": "1.0.1",
     "maintainer": "fulvio <fulvio999@gmail.com>",
-    "framework" : "ubuntu-sdk-15.04.5"
+    "framework": "ubuntu-sdk-15.04.5"
 }

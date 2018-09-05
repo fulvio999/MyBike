@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=MyBike
+Exec=qmlscene qml/Main.qml
+Icon=assets/MyBike.png
+Terminal=false
+Type=Application
+X-Ubuntu-Touch=true
