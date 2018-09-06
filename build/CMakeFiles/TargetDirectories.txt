@@ -1,3 +1,0 @@
-/home/fulvio/Dropbox/ubuntu-devel/my-apps/MyBike/source/MyBike/build/CMakeFiles/MyBike.desktop.dir
-/home/fulvio/Dropbox/ubuntu-devel/my-apps/MyBike/source/MyBike/build/CMakeFiles/MyBike_FILES.dir
-/home/fulvio/Dropbox/ubuntu-devel/my-apps/MyBike/source/MyBike/build/po/CMakeFiles/mybike.fulvio.pot.dir

@@ -1,8 +1,0 @@
-{
-    "policy_groups": [
-        "content_exchange",
-        "webview",
-        "networking"
-    ],
-    "policy_version": 1.3
-}
