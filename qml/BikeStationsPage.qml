@@ -51,6 +51,7 @@ import "RestClient.js" as RestClient
                  id:filterByStationNameField
                  placeholderText: i18n.tr("filter by station name")
                  width: units.gu(25)
+                 inputMethodHints: Qt.ImhNoPredictiveText /* disable text prediction with underlining */
                  onTextChanged:{
 
                      if(text.length > 0 ) /* do filter */

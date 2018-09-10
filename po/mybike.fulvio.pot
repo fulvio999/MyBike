@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mybike.fulvio\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-09-06 10:19+0000\n"
+"POT-Creation-Date: 2018-09-10 12:22+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -123,23 +123,23 @@ msgstr ""
 msgid "filter by city"
 msgstr ""
 
-#: ../qml/Main.qml:235
+#: ../qml/Main.qml:236
 msgid "Found"
 msgstr ""
 
-#: ../qml/Main.qml:235
+#: ../qml/Main.qml:236
 msgid "Bike Networks"
 msgstr ""
 
-#: ../qml/Main.qml:250
+#: ../qml/Main.qml:251
 msgid "Bike stations"
 msgstr ""
 
-#: ../qml/Main.qml:314
+#: ../qml/Main.qml:315
 msgid "Help page"
 msgstr ""
 
-#: ../qml/Main.qml:326
+#: ../qml/Main.qml:327
 msgid "Map page"
 msgstr ""
 

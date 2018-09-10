@@ -11,7 +11,7 @@ MainView {
     applicationName: 'mybike.fulvio'
     automaticOrientation: true
 
-    property string appVersion : "1.0.2"
+    property string appVersion : "1.0.3"
 
     //------------------ Config Param ---------
     property string cityBikBaseUrl : "http://api.citybik.es/v2/networks"
@@ -199,6 +199,7 @@ MainView {
                           placeholderText: i18n.tr("filter by city")
                           width: units.gu(25)
                           enabled:false
+                          inputMethodHints: Qt.ImhNoPredictiveText /* disable text prediction with underlining */
                           onTextChanged:{
 
                              if(text.length > 0 ) /* do filter */
