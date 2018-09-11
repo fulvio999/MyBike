@@ -3,23 +3,31 @@
 # This file is distributed under the same license as the mybike.fulvio package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: mybike.fulvio\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-09-11 08:20+0000\n"
-"PO-Revision-Date: 2018-09-11 13:50+0000\n"
+"POT-Creation-Date: 2018-09-11 13:38+0000\n"
+"PO-Revision-Date: 2018-09-11 15:42+0200\n"
 "Last-Translator: advocatux <advocatux@airpost.net>\n"
 "Language-Team: UBports Spanish Team\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.6\n"
 
 #: ../qml/ProductInfo.qml:10
 msgid "Product Info"
 msgstr "Información del producto"
+
+#: ../qml/ProductInfo.qml:11
+msgid "version"
+msgstr "versión"
+
+#: ../qml/ProductInfo.qml:11
+msgid "Author"
+msgstr "Autor"
 
 #: ../qml/ProductInfo.qml:11
 msgid "Unofficial App for:"
@@ -63,7 +71,9 @@ msgstr "(gracias)"
 
 #: ../qml/HelpPage.qml:28
 msgid "to get info about registered Bike networks around the world."
-msgstr "para obtener información sobre redes de bicicletas registradas en todo el mundo."
+msgstr ""
+"para obtener información sobre redes de bicicletas registradas en todo el "
+"mundo."
 
 #: ../qml/HelpPage.qml:29
 msgid "Only the networks managed by 'citybik.es' are supported;"
@@ -74,8 +84,7 @@ msgid ""
 "In case of a network will be added by 'citybik.es' it will be available in "
 "the App"
 msgstr ""
-"En caso de que «citybik.es» añada una red "
-"estará disponible en la aplicación"
+"En caso de que «citybik.es» añada una red estará disponible en la aplicación"
 
 #: ../qml/HelpPage.qml:31
 msgid "No updates of the App are necessary"
@@ -87,7 +96,8 @@ msgstr "Para colaborar con citybik, vea: "
 
 #: ../qml/HelpPage.qml:33
 msgid "Note 1: to see Map Page is necessary an active internet connection"
-msgstr "Nota 1: para ver la página de mapas se necesita una conexión a internet"
+msgstr ""
+"Nota 1: para ver la página de mapas se necesita una conexión a internet"
 
 #: ../qml/HelpPage.qml:34
 msgid "Note 2: Field 'Last check time' is UTC format"
@@ -167,4 +177,4 @@ msgstr "Estaciones"
 
 #: ../qml/BikeStationsPage.qml:52
 msgid "filter by station name"
-msgstr "filtrar por nombre de estación" 
+msgstr "filtrar por nombre de estación"

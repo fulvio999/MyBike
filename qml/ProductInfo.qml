@@ -8,7 +8,7 @@ import Ubuntu.Components.Popups 1.3
 Dialog {
        id: productInfoDialogue
        title: i18n.tr("Product Info")
-       text: "MyBike: version "+root.appVersion+"<br> Author: fulvio <br>"+i18n.tr("Unofficial App for:")+" https://citybik.es/"
+       text: "MyBike: "+i18n.tr("version")+" "+root.appVersion+"<br>"+i18n.tr("Author")+": fulvio <br>"+i18n.tr("Unofficial App for:")+" https://citybik.es/"
 
        Button {
            text: i18n.tr("Close")
