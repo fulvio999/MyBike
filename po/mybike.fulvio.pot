@@ -1,6 +1,6 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
+# This file is distributed under the same license as the mybike.fulvio package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 #, fuzzy
@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mybike.fulvio\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-09-10 22:22+0000\n"
+"POT-Creation-Date: 2018-09-11 08:20+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,6 +16,18 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+#: ../qml/ProductInfo.qml:10
+msgid "Product Info"
+msgstr ""
+
+#: ../qml/ProductInfo.qml:11
+msgid "Unofficial App for:"
+msgstr ""
+
+#: ../qml/ProductInfo.qml:14 ../qml/Main.qml:53
+msgid "Close"
+msgstr ""
 
 #: ../qml/BikeStationsDelegate.qml:52
 msgid "Station"
@@ -39,34 +51,6 @@ msgstr ""
 
 #: ../qml/BikeStationsDelegate.qml:77
 msgid "Last check"
-msgstr ""
-
-#: ../qml/ProductInfo.qml:10
-msgid "Product Info"
-msgstr ""
-
-#: ../qml/ProductInfo.qml:11
-msgid "Unofficial App for:"
-msgstr ""
-
-#: ../qml/ProductInfo.qml:14 ../qml/Main.qml:53
-msgid "Close"
-msgstr ""
-
-#: ../qml/BikeStationsPage.qml:30
-msgid "Bike network"
-msgstr ""
-
-#: ../qml/BikeStationsPage.qml:36 ../qml/BikeNetworksDelegate.qml:52
-msgid "City"
-msgstr ""
-
-#: ../qml/BikeStationsPage.qml:43
-msgid "Stations"
-msgstr ""
-
-#: ../qml/BikeStationsPage.qml:52
-msgid "filter by station name"
 msgstr ""
 
 #: ../qml/HelpPage.qml:27
@@ -159,10 +143,26 @@ msgstr ""
 msgid "Map page"
 msgstr ""
 
+#: ../qml/BikeNetworksDelegate.qml:52 ../qml/BikeStationsPage.qml:36
+msgid "City"
+msgstr ""
+
 #: ../qml/BikeNetworksDelegate.qml:57
 msgid "Country"
 msgstr ""
 
 #: ../qml/BikeNetworksDelegate.qml:62
 msgid "Network Name"
+msgstr ""
+
+#: ../qml/BikeStationsPage.qml:30
+msgid "Bike network"
+msgstr ""
+
+#: ../qml/BikeStationsPage.qml:43
+msgid "Stations"
+msgstr ""
+
+#: ../qml/BikeStationsPage.qml:52
+msgid "filter by station name"
 msgstr ""
