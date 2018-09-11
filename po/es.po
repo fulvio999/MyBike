@@ -1,6 +1,6 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
+# This file is distributed under the same license as the mybike.fulvio package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 #, fuzzy
@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mybike.fulvio\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-09-06 10:19+0000\n"
-"PO-Revision-Date: 2018-09-06 20:40+0000\n"
+"POT-Creation-Date: 2018-09-11 08:20+0000\n"
+"PO-Revision-Date: 2018-09-11 13:50+0000\n"
 "Last-Translator: advocatux <advocatux@airpost.net>\n"
 "Language-Team: UBports Spanish Team\n"
 "Language: es\n"
@@ -59,7 +59,7 @@ msgstr "Esta aplicación usa la API de"
 
 #: ../qml/HelpPage.qml:27
 msgid "(Thanks)"
-msgstr "(Gracias)"
+msgstr "(gracias)"
 
 #: ../qml/HelpPage.qml:28
 msgid "to get info about registered Bike networks around the world."
@@ -87,7 +87,7 @@ msgstr "Para colaborar con citybik, vea: "
 
 #: ../qml/HelpPage.qml:33
 msgid "Note 1: to see Map Page is necessary an active internet connection"
-msgstr "Nota 1: para ver la página del mapa se necesita una conexión a internet"
+msgstr "Nota 1: para ver la página de mapas se necesita una conexión a internet"
 
 #: ../qml/HelpPage.qml:34
 msgid "Note 2: Field 'Last check time' is UTC format"
@@ -125,25 +125,25 @@ msgstr "Mostrar redes"
 msgid "filter by city"
 msgstr "filtrar por ciudad"
 
-#: ../qml/Main.qml:235
+#: ../qml/Main.qml:236
 msgid "Found"
-msgstr "Encontrado"
+msgstr "Encontradas"
 
-#: ../qml/Main.qml:235
+#: ../qml/Main.qml:236
 msgid "Bike Networks"
-msgstr "Redes de bicicletas"
+msgstr "redes de bicicletas"
 
-#: ../qml/Main.qml:250
+#: ../qml/Main.qml:251
 msgid "Bike stations"
 msgstr "Estaciones de bicicletas"
 
-#: ../qml/Main.qml:314
+#: ../qml/Main.qml:315
 msgid "Help page"
 msgstr "Página de ayuda"
 
-#: ../qml/Main.qml:326
+#: ../qml/Main.qml:327
 msgid "Map page"
-msgstr "Página del mapa"
+msgstr "Página de mapas"
 
 #: ../qml/BikeNetworksDelegate.qml:52 ../qml/BikeStationsPage.qml:36
 msgid "City"
