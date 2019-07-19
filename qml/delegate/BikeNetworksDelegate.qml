@@ -67,12 +67,12 @@ Item {
                   }
 
                   Label {
-                        text: i18n.tr("Latitude") + ": " + latitude
+                        text: i18n.tr("Latitude") + ": " + parseFloat(latitude).toFixed(3)
                         fontSize: "medium"
                   }
 
                   Label {
-                        text: i18n.tr("Longitude") + ": " + longitude
+                        text: i18n.tr("Longitude") + ": " + parseFloat(longitude).toFixed(3)
                         fontSize: "medium"
                   }
             }
@@ -89,7 +89,7 @@ Item {
                   Image {
                         id: detailsImagee
                         source: Qt.resolvedUrl("../graphics/lens.png")
-                        height: parent.height - units.gu(5) // parent.height //* 0.5
+                        height: parent.height - units.gu(5) 
                         width: height - units.gu(5)
                         fillMode: Image.PreserveAspectFit
 

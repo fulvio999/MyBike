@@ -67,17 +67,17 @@ Item {
                   }
 
                   Label {
-                        text: i18n.tr("Latitude") + ": " + latitude
+                        text: i18n.tr("Latitude") + ": " + parseFloat(latitude).toFixed(3)
                         fontSize: "medium"
                   }
 
                   Label {
-                        text: i18n.tr("Longitude") + ": " + longitude
+                        text: i18n.tr("Longitude") + ": " + parseFloat(longitude).toFixed(3)
                         fontSize: "medium"
                   }
 
                   Label {
-                        text: i18n.tr("Last check") + " (dd.mm.yyyy hh:mm): " + Qt.formatDateTime(timestamp, "dd.MM.yyyy hh:mm"); //timestamp
+                        text: i18n.tr("Last check time") + ": " + Qt.formatDateTime(timestamp, "dd.MM.yyyy   hh:mm"); 
                         fontSize: "medium"
                   }
             }

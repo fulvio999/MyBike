@@ -113,7 +113,7 @@ Page {
         Row {
             Label {
                 //anchors.horizontalCenter: parent.horizontalCenter
-                text: "<b>" + i18n.tr("Bike network") + ":  </b>" + bikeStationsPage.networkId
+                text: "<b>" + i18n.tr("Network name") + ":  </b>" + bikeStationsPage.networkId
             }
         }
 
@@ -126,7 +126,7 @@ Page {
         Row {
             Label {
                 id: bikeNetworksAmountStationsLabel
-                text: "<b>" + i18n.tr("Stations") + ":  </b>" + bikeStationsListView.count
+                text: "<b>" + i18n.tr("Total stations") + ":  </b>" + bikeStationsListView.count
             }
         }
 
@@ -136,7 +136,7 @@ Page {
             TextField {
                 id: filterByStationNameField
                 placeholderText: i18n.tr("filter by station name")
-                width: units.gu(25)
+                width: units.gu(28)
                 inputMethodHints: Qt.ImhNoPredictiveText /* disable text prediction with underlining */
                 onTextChanged: {
 
@@ -158,7 +158,13 @@ Page {
                     }
                 }
             }
+        }
 
+        Row{
+             anchors.horizontalCenter: parent.horizontalCenter
+            Label{
+               text: i18n.tr("(Date format is:  dd.mm.yyyy   hh:mm)")
+            }
         }
     }
 

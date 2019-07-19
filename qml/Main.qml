@@ -27,7 +27,7 @@ MainView {
     //-----------------------------------------
 
     /* enable to test with dark theme */
-    theme.name: "Ubuntu.Components.Themes.SuruDark"
+    //theme.name: "Ubuntu.Components.Themes.SuruDark"
 
     /*------- Tablet (width >= 110) -------- */
     //vertical
@@ -35,13 +35,13 @@ MainView {
     //height: units.gu(111)
 
     //horizontal (rel)
-    width: units.gu(100)
-    height: units.gu(75)
+    //width: units.gu(100)
+    //height: units.gu(75)
 
     /* ----- phone 4.5 (the smallest one) ---- */
     //vertical
-    //width: units.gu(50)
-    //height: units.gu(96)
+    width: units.gu(50)
+    height: units.gu(96)
 
     //horizontal
     //width: units.gu(96)

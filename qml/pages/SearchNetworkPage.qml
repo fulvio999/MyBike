@@ -164,7 +164,7 @@ Page {
             TextField {
                 id: filterByCityField
                 placeholderText: i18n.tr("filter by city")
-                width: units.gu(25)
+                width: units.gu(28)
                 enabled: false
                 inputMethodHints: Qt.ImhNoPredictiveText /* disable text prediction with underlining */
                 onTextChanged: {

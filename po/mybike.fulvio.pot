@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mybike.fulvio\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-07-19 09:56+0000\n"
+"POT-Creation-Date: 2019-07-19 10:28+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -40,7 +40,7 @@ msgid "Longitude"
 msgstr ""
 
 #: ../qml/delegate/BikeStationsDelegate.qml:80
-msgid "Last check"
+msgid "Last check time"
 msgstr ""
 
 #: ../qml/delegate/BikeNetworksDelegate.qml:55
@@ -135,15 +135,19 @@ msgid "Bike stations"
 msgstr ""
 
 #: ../qml/pages/BikeStationsPage.qml:116
-msgid "Bike network"
+msgid "Bike network name"
 msgstr ""
 
 #: ../qml/pages/BikeStationsPage.qml:129
-msgid "Stations"
+msgid "Total stations"
 msgstr ""
 
 #: ../qml/pages/BikeStationsPage.qml:138
 msgid "filter by station name"
+msgstr ""
+
+#: ../qml/pages/BikeStationsPage.qml:166
+msgid "(Date format is:  dd.mm.yyyy   hh:mm)"
 msgstr ""
 
 #: ../qml/pages/MapViewerWebPage.qml:20
