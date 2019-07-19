@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mybike.fulvio\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-09-11 13:38+0000\n"
-"PO-Revision-Date: 2018-09-11 15:42+0200\n"
+"POT-Creation-Date: 2019-07-19 12:10+0000\n"
+"PO-Revision-Date: 2019-07-19 14:16+0200\n"
 "Last-Translator: advocatux <advocatux@airpost.net>\n"
 "Language-Team: UBports Spanish Team\n"
 "Language: es\n"
@@ -17,164 +17,177 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 2.0.6\n"
 
-#: ../qml/ProductInfo.qml:10
-msgid "Product Info"
-msgstr "Información del producto"
-
-#: ../qml/ProductInfo.qml:11
-msgid "version"
-msgstr "versión"
-
-#: ../qml/ProductInfo.qml:11
-msgid "Author"
-msgstr "Autor"
-
-#: ../qml/ProductInfo.qml:11
-msgid "Unofficial App for:"
-msgstr "Aplicación no oficial para:"
-
-#: ../qml/ProductInfo.qml:14 ../qml/Main.qml:53
-msgid "Close"
-msgstr "Cerrar"
-
-#: ../qml/BikeStationsDelegate.qml:52
+#: ../qml/delegate/BikeStationsDelegate.qml:55
 msgid "Station"
 msgstr "Estación"
 
-#: ../qml/BikeStationsDelegate.qml:57
+#: ../qml/delegate/BikeStationsDelegate.qml:60
 msgid "Empty slots"
 msgstr "Espacios vacíos"
 
-#: ../qml/BikeStationsDelegate.qml:62
+#: ../qml/delegate/BikeStationsDelegate.qml:65
 msgid "Free bikes"
 msgstr "Bicicletas libres"
 
-#: ../qml/BikeStationsDelegate.qml:67 ../qml/BikeNetworksDelegate.qml:67
+#: ../qml/delegate/BikeStationsDelegate.qml:70
+#: ../qml/delegate/BikeNetworksDelegate.qml:70
 msgid "Latitude"
 msgstr "Latitud"
 
-#: ../qml/BikeStationsDelegate.qml:72 ../qml/BikeNetworksDelegate.qml:72
+#: ../qml/delegate/BikeStationsDelegate.qml:75
+#: ../qml/delegate/BikeNetworksDelegate.qml:75
 msgid "Longitude"
 msgstr "Longitud"
 
-#: ../qml/BikeStationsDelegate.qml:77
-msgid "Last check"
+#: ../qml/delegate/BikeStationsDelegate.qml:80
+msgid "Last check time"
 msgstr "Última comprobación"
 
-#: ../qml/HelpPage.qml:27
+#: ../qml/delegate/BikeNetworksDelegate.qml:55
+#: ../qml/pages/BikeStationsPage.qml:122
+msgid "City"
+msgstr "Ciudad"
+
+#: ../qml/delegate/BikeNetworksDelegate.qml:60
+msgid "Country"
+msgstr "País"
+
+#: ../qml/delegate/BikeNetworksDelegate.qml:65
+msgid "Network Name"
+msgstr "Nombre de la red"
+
+#: ../qml/pages/SearchNetworkPage.qml:21 MyBike.desktop.in.h:1
+msgid "MyBike"
+msgstr "MyBike"
+
+#: ../qml/pages/SearchNetworkPage.qml:29
+msgid "About"
+msgstr "Acerca de"
+
+#: ../qml/pages/SearchNetworkPage.qml:41
+msgid "Help"
+msgstr "Ayuda"
+
+#: ../qml/pages/SearchNetworkPage.qml:49
+msgid "Map"
+msgstr "Mapa"
+
+#: ../qml/pages/SearchNetworkPage.qml:136
+msgid "Show Networks"
+msgstr "Mostrar redes"
+
+#: ../qml/pages/SearchNetworkPage.qml:166
+msgid "filter by city"
+msgstr "filtrar por ciudad"
+
+#: ../qml/pages/SearchNetworkPage.qml:203
+msgid "Found"
+msgstr "Encontradas"
+
+#: ../qml/pages/SearchNetworkPage.qml:203
+msgid "Bike Networks"
+msgstr "redes de bicicletas"
+
+#: ../qml/pages/HelpPage.qml:16
+msgid "Help page"
+msgstr "Página de ayuda"
+
+#: ../qml/pages/HelpPage.qml:36
 msgid "This App uses API of"
 msgstr "Esta aplicación usa la API de"
 
-#: ../qml/HelpPage.qml:27
+#: ../qml/pages/HelpPage.qml:36
 msgid "(Thanks)"
 msgstr "(gracias)"
 
-#: ../qml/HelpPage.qml:28
+#: ../qml/pages/HelpPage.qml:37
 msgid "to get info about registered Bike networks around the world."
 msgstr ""
 "para obtener información sobre redes de bicicletas registradas en todo el "
 "mundo."
 
-#: ../qml/HelpPage.qml:29
+#: ../qml/pages/HelpPage.qml:38
 msgid "Only the networks managed by 'citybik.es' are supported;"
 msgstr "Solo están soportadas las redes gestionadas por «citybik.es»;"
 
-#: ../qml/HelpPage.qml:30
+#: ../qml/pages/HelpPage.qml:39
 msgid ""
 "In case of a network will be added by 'citybik.es' it will be available in "
 "the App"
 msgstr ""
 "En caso de que «citybik.es» añada una red estará disponible en la aplicación"
 
-#: ../qml/HelpPage.qml:31
+#: ../qml/pages/HelpPage.qml:40
 msgid "No updates of the App are necessary"
 msgstr "No se necesita actualizar la aplicación"
 
-#: ../qml/HelpPage.qml:32
+#: ../qml/pages/HelpPage.qml:41
 msgid "To contribute at citybik, see: "
 msgstr "Para colaborar con citybik, vea: "
 
-#: ../qml/HelpPage.qml:33
+#: ../qml/pages/HelpPage.qml:42
 msgid "Note 1: to see Map Page is necessary an active internet connection"
 msgstr ""
 "Nota 1: para ver la página de mapas se necesita una conexión a internet"
 
-#: ../qml/HelpPage.qml:34
+#: ../qml/pages/HelpPage.qml:43
 msgid "Note 2: Field 'Last check time' is UTC format"
 msgstr "Nota 2: El campo «hora de la última comprobación» está en formato UTC"
 
-#: ../qml/Main.qml:49
-msgid "Warning"
-msgstr "Advertencia"
-
-#: ../qml/Main.qml:50
-msgid "No data found"
-msgstr "No se encontraron datos"
-
-#: ../qml/Main.qml:73 MyBike.desktop.in.h:1
-msgid "MyBike"
-msgstr "MyBike"
-
-#: ../qml/Main.qml:81
-msgid "About"
-msgstr "Acerca de"
-
-#: ../qml/Main.qml:93
-msgid "Help"
-msgstr "Ayuda"
-
-#: ../qml/Main.qml:101
-msgid "Map"
-msgstr "Mapa"
-
-#: ../qml/Main.qml:169
-msgid "Show Networks"
-msgstr "Mostrar redes"
-
-#: ../qml/Main.qml:199
-msgid "filter by city"
-msgstr "filtrar por ciudad"
-
-#: ../qml/Main.qml:236
-msgid "Found"
-msgstr "Encontradas"
-
-#: ../qml/Main.qml:236
-msgid "Bike Networks"
-msgstr "redes de bicicletas"
-
-#: ../qml/Main.qml:251
+#: ../qml/pages/BikeStationsPage.qml:21
 msgid "Bike stations"
 msgstr "Estaciones de bicicletas"
 
-#: ../qml/Main.qml:315
-msgid "Help page"
-msgstr "Página de ayuda"
+#: ../qml/pages/BikeStationsPage.qml:116
+msgid "Network name"
+msgstr "Nombre de la red"
 
-#: ../qml/Main.qml:327
+#: ../qml/pages/BikeStationsPage.qml:129
+msgid "Total stations"
+msgstr "Estaciones de bicicletas"
+
+#: ../qml/pages/BikeStationsPage.qml:138
+msgid "filter by station name"
+msgstr "filtrar por nombre de estación"
+
+#: ../qml/pages/BikeStationsPage.qml:166
+msgid "(Date format is:  dd.mm.yyyy   hh:mm) - UTC Time"
+msgstr "Hora està en formato UTC dd.mm.yyy  hh:mm"
+
+#: ../qml/pages/MapViewerWebPage.qml:20
 msgid "Map page"
 msgstr "Página de mapas"
 
-#: ../qml/BikeNetworksDelegate.qml:52 ../qml/BikeStationsPage.qml:36
-msgid "City"
-msgstr "Ciudad"
+#: ../qml/Main.qml:56
+msgid "Product Info"
+msgstr "Información del producto"
 
-#: ../qml/BikeNetworksDelegate.qml:57
-msgid "Country"
-msgstr "País"
+#: ../qml/Main.qml:57
+msgid "version"
+msgstr "versión"
 
-#: ../qml/BikeNetworksDelegate.qml:62
-msgid "Network Name"
-msgstr "Nombre de la red"
+#: ../qml/Main.qml:57
+msgid "Author"
+msgstr "Autor"
 
-#: ../qml/BikeStationsPage.qml:30
-msgid "Bike network"
-msgstr "Red de bicicletas"
+#: ../qml/Main.qml:57
+msgid "Unofficial App for:"
+msgstr "Aplicación no oficial para:"
 
-#: ../qml/BikeStationsPage.qml:43
-msgid "Stations"
-msgstr "Estaciones"
+#: ../qml/Main.qml:60 ../qml/Main.qml:74
+msgid "Close"
+msgstr "Cerrar"
 
-#: ../qml/BikeStationsPage.qml:52
-msgid "filter by station name"
-msgstr "filtrar por nombre de estación"
+#: ../qml/Main.qml:70
+msgid "Warning"
+msgstr "Advertencia"
+
+#: ../qml/Main.qml:71
+msgid "No data found"
+msgstr "No se encontraron datos"
+
+#~ msgid "Bike network"
+#~ msgstr "Red de bicicletas"
+
+#~ msgid "Stations"
+#~ msgstr "Estaciones"
