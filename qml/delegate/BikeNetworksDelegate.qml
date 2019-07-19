@@ -89,8 +89,8 @@ Item {
                   Image {
                         id: detailsImagee
                         source: Qt.resolvedUrl("../graphics/lens.png")
-                        height: parent.height - units.gu(5) 
-                        width: height - units.gu(5)
+                        height: parent.height - units.gu(4)
+                        width: height - units.gu(4)
                         fillMode: Image.PreserveAspectFit
 
                         MouseArea {

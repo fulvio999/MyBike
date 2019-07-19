@@ -163,7 +163,7 @@ Page {
         Row{
              anchors.horizontalCenter: parent.horizontalCenter
             Label{
-               text: i18n.tr("(Date format is:  dd.mm.yyyy   hh:mm)")
+               text: i18n.tr("(Date format is:  dd.mm.yyyy   hh:mm) - UTC Time")
             }
         }
     }
