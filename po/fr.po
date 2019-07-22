@@ -1,0 +1,184 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the mybike.fulvio package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: mybike.fulvio\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-07-19 12:16+0000\n"
+"PO-Revision-Date: 2019-07-21 19:06+0000\n"
+"Last-Translator: Anne017 <anneonyme017@openmailbox.org>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../qml/delegate/BikeStationsDelegate.qml:55
+msgid "Station"
+msgstr "Station"
+
+#: ../qml/delegate/BikeStationsDelegate.qml:60
+msgid "Empty slots"
+msgstr "Emplacements vides"
+
+#: ../qml/delegate/BikeStationsDelegate.qml:65
+msgid "Free bikes"
+msgstr "Vélos libres"
+
+#: ../qml/delegate/BikeStationsDelegate.qml:70
+#: ../qml/delegate/BikeNetworksDelegate.qml:70
+msgid "Latitude"
+msgstr "Latitude"
+
+#: ../qml/delegate/BikeStationsDelegate.qml:75
+#: ../qml/delegate/BikeNetworksDelegate.qml:75
+msgid "Longitude"
+msgstr "Longitude"
+
+#: ../qml/delegate/BikeStationsDelegate.qml:80
+msgid "Last check time"
+msgstr "Vérifié pour la dernière fois le"
+
+#: ../qml/delegate/BikeNetworksDelegate.qml:55
+#: ../qml/pages/BikeStationsPage.qml:122
+msgid "City"
+msgstr "Ville"
+
+#: ../qml/delegate/BikeNetworksDelegate.qml:60
+msgid "Country"
+msgstr "Pays"
+
+#: ../qml/delegate/BikeNetworksDelegate.qml:65
+msgid "Network Name"
+msgstr "Nom du réseau"
+
+#: ../qml/pages/SearchNetworkPage.qml:21 MyBike.desktop.in.h:1
+msgid "MyBike"
+msgstr "Mon vélo"
+
+#: ../qml/pages/SearchNetworkPage.qml:29
+msgid "About"
+msgstr "À propos"
+
+#: ../qml/pages/SearchNetworkPage.qml:41
+msgid "Help"
+msgstr "Aide"
+
+#: ../qml/pages/SearchNetworkPage.qml:49
+msgid "Map"
+msgstr "Carte"
+
+#: ../qml/pages/SearchNetworkPage.qml:136
+msgid "Show Networks"
+msgstr "Afficher les réseaux"
+
+#: ../qml/pages/SearchNetworkPage.qml:166
+msgid "filter by city"
+msgstr "Filtrer par ville"
+
+#: ../qml/pages/SearchNetworkPage.qml:203
+msgid "Found"
+msgstr "Trouvé"
+
+#: ../qml/pages/SearchNetworkPage.qml:203
+msgid "Bike Networks"
+msgstr "Pistes cyclables"
+
+#: ../qml/pages/HelpPage.qml:16
+msgid "Help page"
+msgstr "Page d'aide"
+
+#: ../qml/pages/HelpPage.qml:36
+msgid "This App uses API of"
+msgstr "Cette application utilise l'API de"
+
+#: ../qml/pages/HelpPage.qml:36
+msgid "(Thanks)"
+msgstr "(Merci)"
+
+#: ../qml/pages/HelpPage.qml:37
+msgid "to get info about registered Bike networks around the world."
+msgstr "pour obtenir des informations sur les pistes cyclables enregistrées autour du monde."
+
+#: ../qml/pages/HelpPage.qml:38
+msgid "Only the networks managed by 'citybik.es' are supported;"
+msgstr "Seuls les réseaux gérés par citybik.es sont pris en charge ;"
+
+#: ../qml/pages/HelpPage.qml:39
+msgid ""
+"In case of a network will be added by 'citybik.es' it will be available in "
+"the App"
+msgstr ""
+"Dès qu'un réseau est ajouté à citybik.es, il est disponible dans "
+"cette application"
+
+#: ../qml/pages/HelpPage.qml:40
+msgid "No updates of the App are necessary"
+msgstr "Aucune mise à jour de l'appliction n'est nécessaire"
+
+#: ../qml/pages/HelpPage.qml:41
+msgid "To contribute at citybik, see: "
+msgstr "Pour contribuer à citybik, consultez : "
+
+#: ../qml/pages/HelpPage.qml:42
+msgid "Note 1: to see Map Page is necessary an active internet connection"
+msgstr "Note 1 : une connexion internet est nécessaire pour voir la page avec la carte"
+
+#: ../qml/pages/HelpPage.qml:43
+msgid "Note 2: Field 'Last check time' is UTC format"
+msgstr "Note 2 : le champ de dernière vérification est au format UTC"
+
+#: ../qml/pages/BikeStationsPage.qml:21
+msgid "Bike stations"
+msgstr "Stations de vélos"
+
+#: ../qml/pages/BikeStationsPage.qml:116
+msgid "Network name"
+msgstr "Nom du réseau"
+
+#: ../qml/pages/BikeStationsPage.qml:129
+msgid "Total stations"
+msgstr "Stations totales"
+
+#: ../qml/pages/BikeStationsPage.qml:138
+msgid "filter by station name"
+msgstr "Filtrer par nom de station"
+
+#: ../qml/pages/BikeStationsPage.qml:166
+msgid "(Date format is:  dd.mm.yyyy   hh:mm) - UTC Time"
+msgstr "(Le format de date est : jj.mm.aaaa   hh:mm) - UTC Time"
+
+#: ../qml/pages/MapViewerWebPage.qml:20
+msgid "Map page"
+msgstr "Carte"
+
+#: ../qml/Main.qml:56
+msgid "Product Info"
+msgstr "Informations sur le produit"
+
+#: ../qml/Main.qml:57
+msgid "version"
+msgstr "version"
+
+#: ../qml/Main.qml:57
+msgid "Author"
+msgstr "Auteur"
+
+#: ../qml/Main.qml:57
+msgid "Unofficial App for:"
+msgstr "Application non officielle pour :"
+
+#: ../qml/Main.qml:60 ../qml/Main.qml:74
+msgid "Close"
+msgstr "Fermer"
+
+#: ../qml/Main.qml:70
+msgid "Warning"
+msgstr "Attention"
+
+#: ../qml/Main.qml:71
+msgid "No data found"
+msgstr "Aucune donnée trouvée"
