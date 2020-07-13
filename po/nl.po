@@ -24,7 +24,7 @@ msgstr "Stalling"
 
 #: ../qml/delegate/BikeStationsDelegate.qml:60
 msgid "Empty slots"
-msgstr "Vrije stalplaatsen"
+msgstr "Vrije plaatsen"
 
 #: ../qml/delegate/BikeStationsDelegate.qml:65
 msgid "Free bikes"
