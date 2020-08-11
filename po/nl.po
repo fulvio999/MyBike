@@ -1,0 +1,190 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the mybike.fulvio package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: mybike.fulvio\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-07-22 08:20+0000\n"
+"PO-Revision-Date: 2020-07-13 21:42+0200\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.3.1\n"
+"Last-Translator: Heimen Stoffels <vistausss@outlook.com>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: nl\n"
+
+#: ../qml/delegate/BikeStationsDelegate.qml:55
+msgid "Station"
+msgstr "Stalling"
+
+#: ../qml/delegate/BikeStationsDelegate.qml:60
+msgid "Empty slots"
+msgstr "Vrije plaatsen"
+
+#: ../qml/delegate/BikeStationsDelegate.qml:65
+msgid "Free bikes"
+msgstr "Gratis fietsen"
+
+#: ../qml/delegate/BikeStationsDelegate.qml:70
+#: ../qml/delegate/BikeNetworksDelegate.qml:70
+msgid "Latitude"
+msgstr "Breedtegraad"
+
+#: ../qml/delegate/BikeStationsDelegate.qml:75
+#: ../qml/delegate/BikeNetworksDelegate.qml:75
+msgid "Longitude"
+msgstr "Lengtegraad"
+
+#: ../qml/delegate/BikeStationsDelegate.qml:80
+msgid "Last check time"
+msgstr "Recentste controle"
+
+#: ../qml/delegate/BikeNetworksDelegate.qml:55
+#: ../qml/pages/BikeStationsPage.qml:122
+msgid "City"
+msgstr "Plaats"
+
+#: ../qml/delegate/BikeNetworksDelegate.qml:60
+msgid "Country"
+msgstr "Land"
+
+#: ../qml/delegate/BikeNetworksDelegate.qml:65
+msgid "Network Name"
+msgstr "Naam van netwerk"
+
+#: ../qml/pages/SearchNetworkPage.qml:21 MyBike.desktop.in.h:1
+msgid "MyBike"
+msgstr "MijnFiets"
+
+#: ../qml/pages/SearchNetworkPage.qml:29
+msgid "About"
+msgstr "Over"
+
+#: ../qml/pages/SearchNetworkPage.qml:41
+msgid "Help"
+msgstr "Hulp"
+
+#: ../qml/pages/SearchNetworkPage.qml:49
+msgid "Map"
+msgstr "Kaart"
+
+#: ../qml/pages/SearchNetworkPage.qml:136
+msgid "Show Networks"
+msgstr "Netwerken tonen"
+
+#: ../qml/pages/SearchNetworkPage.qml:166
+msgid "filter by city"
+msgstr "filteren op plaats"
+
+#: ../qml/pages/SearchNetworkPage.qml:203
+msgid "Found"
+msgstr "Gevonden"
+
+#: ../qml/pages/SearchNetworkPage.qml:203
+msgid "Bike Networks"
+msgstr "Fietsnetwerken"
+
+#: ../qml/pages/HelpPage.qml:16
+msgid "Help page"
+msgstr "Hulppagina"
+
+#: ../qml/pages/HelpPage.qml:36
+msgid "This App uses API of"
+msgstr "Deze app gebruikt een api van"
+
+#: ../qml/pages/HelpPage.qml:36
+msgid "(Thanks)"
+msgstr "(bedankt)"
+
+#: ../qml/pages/HelpPage.qml:37
+msgid "to get info about registered Bike networks around the world."
+msgstr ""
+"om informatie op te halen over geregistreerde fietsnetwerken over heel de "
+"wereld."
+
+#: ../qml/pages/HelpPage.qml:38
+msgid "Only the networks managed by 'citybik.es' are supported;"
+msgstr "De app ondersteunt alleen de door citybik.es beheerde netwerken"
+
+#: ../qml/pages/HelpPage.qml:39
+msgid ""
+"In case of a network will be added by 'citybik.es' it will be available in "
+"the App"
+msgstr ""
+"Als er een netwerk wordt toegevoegd door citybik.es, dan verschijnt het in "
+"de app"
+
+#: ../qml/pages/HelpPage.qml:40
+msgid "No updates of the App are necessary"
+msgstr "Geen app-updates benodigd"
+
+#: ../qml/pages/HelpPage.qml:41
+msgid "To contribute at citybik, see: "
+msgstr "Wil je bijdragen aan citybik? Ga dan naar: "
+
+#: ../qml/pages/HelpPage.qml:42
+msgid "Note 1: to see Map Page is necessary an active internet connection"
+msgstr ""
+"Let op: je kunt de kaart alleen bekijken als je verbonden bent met het "
+"internet"
+
+#: ../qml/pages/HelpPage.qml:43
+msgid "Note 2: Field 'Last check time' is UTC format"
+msgstr "Let op: het veld 'Recentste controle' is in UTC-opmaak"
+
+#: ../qml/pages/BikeStationsPage.qml:21
+msgid "Bike stations"
+msgstr "Fietsenstallingen"
+
+#: ../qml/pages/BikeStationsPage.qml:116
+msgid "Network name"
+msgstr "Naam van netwerk"
+
+#: ../qml/pages/BikeStationsPage.qml:129
+msgid "Total stations"
+msgstr "Totaal aantal stallingen"
+
+#: ../qml/pages/BikeStationsPage.qml:138
+msgid "filter by station name"
+msgstr "filteren op stallingsnaam"
+
+#: ../qml/pages/BikeStationsPage.qml:166
+msgid "(Date format is:  dd.mm.yyyy   hh:mm) - UTC Time"
+msgstr "(de datumopmaak is  dd.mm.yyyy   hh:mm) - UTC-tijd"
+
+#: ../qml/pages/MapViewerWebPage.qml:20
+msgid "Map page"
+msgstr "Kaart"
+
+#: ../qml/Main.qml:56
+msgid "Product Info"
+msgstr "Productinformatie"
+
+#: ../qml/Main.qml:57
+msgid "version"
+msgstr "versie"
+
+#: ../qml/Main.qml:57
+msgid "Author"
+msgstr "Maker"
+
+#: ../qml/Main.qml:57
+msgid "Unofficial App for:"
+msgstr "Onofficiële app voor:"
+
+#: ../qml/Main.qml:60 ../qml/Main.qml:74
+msgid "Close"
+msgstr "Sluiten"
+
+#: ../qml/Main.qml:70
+msgid "Warning"
+msgstr "Waarschuwing"
+
+#: ../qml/Main.qml:71
+msgid "No data found"
+msgstr "Geen gegevens beschikbaar"
