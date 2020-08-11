@@ -19,7 +19,7 @@ MainView {
     applicationName: 'mybike.fulvio'
     automaticOrientation: true
 
-    property string appVersion : "1.1.2"
+    property string appVersion : "1.1.3"
 
     //------------------ Config Param ---------
     property string cityBikBaseUrl : "http://api.citybik.es/v2/networks"

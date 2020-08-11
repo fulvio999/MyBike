@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mybike.fulvio\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-07-22 08:20+0000\n"
+"POT-Creation-Date: 2020-08-11 15:19+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,77 +16,6 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
-
-#: ../qml/delegate/BikeStationsDelegate.qml:55
-msgid "Station"
-msgstr ""
-
-#: ../qml/delegate/BikeStationsDelegate.qml:60
-msgid "Empty slots"
-msgstr ""
-
-#: ../qml/delegate/BikeStationsDelegate.qml:65
-msgid "Free bikes"
-msgstr ""
-
-#: ../qml/delegate/BikeStationsDelegate.qml:70
-#: ../qml/delegate/BikeNetworksDelegate.qml:70
-msgid "Latitude"
-msgstr ""
-
-#: ../qml/delegate/BikeStationsDelegate.qml:75
-#: ../qml/delegate/BikeNetworksDelegate.qml:75
-msgid "Longitude"
-msgstr ""
-
-#: ../qml/delegate/BikeStationsDelegate.qml:80
-msgid "Last check time"
-msgstr ""
-
-#: ../qml/delegate/BikeNetworksDelegate.qml:55
-#: ../qml/pages/BikeStationsPage.qml:122
-msgid "City"
-msgstr ""
-
-#: ../qml/delegate/BikeNetworksDelegate.qml:60
-msgid "Country"
-msgstr ""
-
-#: ../qml/delegate/BikeNetworksDelegate.qml:65
-msgid "Network Name"
-msgstr ""
-
-#: ../qml/pages/SearchNetworkPage.qml:21 MyBike.desktop.in.h:1
-msgid "MyBike"
-msgstr ""
-
-#: ../qml/pages/SearchNetworkPage.qml:29
-msgid "About"
-msgstr ""
-
-#: ../qml/pages/SearchNetworkPage.qml:41
-msgid "Help"
-msgstr ""
-
-#: ../qml/pages/SearchNetworkPage.qml:49
-msgid "Map"
-msgstr ""
-
-#: ../qml/pages/SearchNetworkPage.qml:136
-msgid "Show Networks"
-msgstr ""
-
-#: ../qml/pages/SearchNetworkPage.qml:166
-msgid "filter by city"
-msgstr ""
-
-#: ../qml/pages/SearchNetworkPage.qml:203
-msgid "Found"
-msgstr ""
-
-#: ../qml/pages/SearchNetworkPage.qml:203
-msgid "Bike Networks"
-msgstr ""
 
 #: ../qml/pages/HelpPage.qml:16
 msgid "Help page"
@@ -138,6 +67,11 @@ msgstr ""
 msgid "Network name"
 msgstr ""
 
+#: ../qml/pages/BikeStationsPage.qml:122
+#: ../qml/delegate/BikeNetworksDelegate.qml:55
+msgid "City"
+msgstr ""
+
 #: ../qml/pages/BikeStationsPage.qml:129
 msgid "Total stations"
 msgstr ""
@@ -152,6 +86,38 @@ msgstr ""
 
 #: ../qml/pages/MapViewerWebPage.qml:20
 msgid "Map page"
+msgstr ""
+
+#: ../qml/pages/SearchNetworkPage.qml:21 MyBike.desktop.in.h:1
+msgid "MyBike"
+msgstr ""
+
+#: ../qml/pages/SearchNetworkPage.qml:29
+msgid "About"
+msgstr ""
+
+#: ../qml/pages/SearchNetworkPage.qml:41
+msgid "Help"
+msgstr ""
+
+#: ../qml/pages/SearchNetworkPage.qml:49
+msgid "Map"
+msgstr ""
+
+#: ../qml/pages/SearchNetworkPage.qml:136
+msgid "Show Networks"
+msgstr ""
+
+#: ../qml/pages/SearchNetworkPage.qml:166
+msgid "filter by city"
+msgstr ""
+
+#: ../qml/pages/SearchNetworkPage.qml:203
+msgid "Found"
+msgstr ""
+
+#: ../qml/pages/SearchNetworkPage.qml:203
+msgid "Bike Networks"
 msgstr ""
 
 #: ../qml/Main.qml:56
@@ -180,4 +146,38 @@ msgstr ""
 
 #: ../qml/Main.qml:71
 msgid "No data found"
+msgstr ""
+
+#: ../qml/delegate/BikeStationsDelegate.qml:55
+msgid "Station"
+msgstr ""
+
+#: ../qml/delegate/BikeStationsDelegate.qml:60
+msgid "Empty slots"
+msgstr ""
+
+#: ../qml/delegate/BikeStationsDelegate.qml:65
+msgid "Free bikes"
+msgstr ""
+
+#: ../qml/delegate/BikeStationsDelegate.qml:70
+#: ../qml/delegate/BikeNetworksDelegate.qml:70
+msgid "Latitude"
+msgstr ""
+
+#: ../qml/delegate/BikeStationsDelegate.qml:75
+#: ../qml/delegate/BikeNetworksDelegate.qml:75
+msgid "Longitude"
+msgstr ""
+
+#: ../qml/delegate/BikeStationsDelegate.qml:80
+msgid "Last check time"
+msgstr ""
+
+#: ../qml/delegate/BikeNetworksDelegate.qml:60
+msgid "Country"
+msgstr ""
+
+#: ../qml/delegate/BikeNetworksDelegate.qml:65
+msgid "Network Name"
 msgstr ""
