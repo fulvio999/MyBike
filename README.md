@@ -5,3 +5,5 @@ Ubuntu Touch App for API offered by: https://citybik.es/ (is NOT the official AP
 Only the networks bike registered at https://citybik.es/ are listed. In case of addition of a new bike network it will be shown automatically by the APP.
 
 To contribute at https://citybik.es/ (eg: add a new bike network) see: https://github.com/eskerda/pybikes
+
+This App is available in the Ubports openstore: https://open-store.io/app/mybike.fulvio
