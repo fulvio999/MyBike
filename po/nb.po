@@ -1,0 +1,185 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the mybike.fulvio package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: mybike.fulvio\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-08-11 15:19+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: NORWEGIAN <LL@li.org>\n"
+"Language: nb\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../qml/pages/HelpPage.qml:16
+msgid "Help page"
+msgstr "Hjelpeside"
+
+#: ../qml/pages/HelpPage.qml:36
+msgid "This App uses API of"
+msgstr "Denne appen bruker API av"
+
+#: ../qml/pages/HelpPage.qml:36
+msgid "(Thanks)"
+msgstr "(Takk)"
+
+#: ../qml/pages/HelpPage.qml:37
+msgid "to get info about registered Bike networks around the world."
+msgstr "for å få informasjon om registrerte sykkelnettverk over hele verden."
+
+#: ../qml/pages/HelpPage.qml:38
+msgid "Only the networks managed by 'citybik.es' are supported;"
+msgstr "Bare nettverk som administreres av 'citybik.es' støttes;"
+
+#: ../qml/pages/HelpPage.qml:39
+msgid ""
+"In case of a network will be added by 'citybik.es' it will be available in "
+"the App"
+msgstr ""
+"I tilfelle et nettverk vil bli lagt til av 'citybik.es' vil det være tilgjengelig "
+"i appen"
+
+#: ../qml/pages/HelpPage.qml:40
+msgid "No updates of the App are necessary"
+msgstr "Ingen oppdateringer av appen er nødvendig"
+
+#: ../qml/pages/HelpPage.qml:41
+msgid "To contribute at citybik, see: "
+msgstr "For å bidra på citybik, se: "
+
+#: ../qml/pages/HelpPage.qml:42
+msgid "Note 1: to see Map Page is necessary an active internet connection"
+msgstr "Merknad 1: for å se Map Page er det nødvendig med en aktiv internettforbindelse"
+
+#: ../qml/pages/HelpPage.qml:43
+msgid "Note 2: Field 'Last check time' is UTC format"
+msgstr "Merknad 2: Feltet 'Siste kontrolltid' er UTC-format"
+
+#: ../qml/pages/BikeStationsPage.qml:21
+msgid "Bike stations"
+msgstr "Sykkelstasjoner"
+
+#: ../qml/pages/BikeStationsPage.qml:116
+msgid "Network name"
+msgstr "Nettverksnavn"
+
+#: ../qml/pages/BikeStationsPage.qml:122
+#: ../qml/delegate/BikeNetworksDelegate.qml:55
+msgid "City"
+msgstr "By"
+
+#: ../qml/pages/BikeStationsPage.qml:129
+msgid "Total stations"
+msgstr "Antall stasjoner"
+
+#: ../qml/pages/BikeStationsPage.qml:138
+msgid "filter by station name"
+msgstr "filtrer på stasjonsnavn"
+
+#: ../qml/pages/BikeStationsPage.qml:166
+msgid "(Date format is:  dd.mm.yyyy   hh:mm) - UTC Time"
+msgstr "(Datoformat er: dd.mm.åååå tt:mm) - UTC-tid"
+
+#: ../qml/pages/MapViewerWebPage.qml:20
+msgid "Map page"
+msgstr "Kartside"
+
+#: ../qml/pages/SearchNetworkPage.qml:21 MyBike.desktop.in.h:1
+msgid "MyBike"
+msgstr "MinSykkel"
+
+#: ../qml/pages/SearchNetworkPage.qml:29
+msgid "About"
+msgstr "Om"
+
+#: ../qml/pages/SearchNetworkPage.qml:41
+msgid "Help"
+msgstr "Hjelp"
+
+#: ../qml/pages/SearchNetworkPage.qml:49
+msgid "Map"
+msgstr "Kart"
+
+#: ../qml/pages/SearchNetworkPage.qml:136
+msgid "Show Networks"
+msgstr "Vis nettverk"
+
+#: ../qml/pages/SearchNetworkPage.qml:166
+msgid "filter by city"
+msgstr "filtrer på by"
+
+#: ../qml/pages/SearchNetworkPage.qml:203
+msgid "Found"
+msgstr "Funnet"
+
+#: ../qml/pages/SearchNetworkPage.qml:203
+msgid "Bike Networks"
+msgstr "Sykkelnettverk"
+
+#: ../qml/Main.qml:56
+msgid "Product Info"
+msgstr "Produktinfo"
+
+#: ../qml/Main.qml:57
+msgid "version"
+msgstr "versjon"
+
+#: ../qml/Main.qml:57
+msgid "Author"
+msgstr "Forfatter"
+
+#: ../qml/Main.qml:57
+msgid "Unofficial App for:"
+msgstr ""
+
+#: ../qml/Main.qml:60 ../qml/Main.qml:74
+msgid "Close"
+msgstr "Lukk"
+
+#: ../qml/Main.qml:70
+msgid "Warning"
+msgstr "Advarsel"
+
+#: ../qml/Main.qml:71
+msgid "No data found"
+msgstr "Ingen data funnet"
+
+#: ../qml/delegate/BikeStationsDelegate.qml:55
+msgid "Station"
+msgstr "Stasjon"
+
+#: ../qml/delegate/BikeStationsDelegate.qml:60
+msgid "Empty slots"
+msgstr "Tomme luker"
+
+#: ../qml/delegate/BikeStationsDelegate.qml:65
+msgid "Free bikes"
+msgstr "Gratis sykler"
+
+#: ../qml/delegate/BikeStationsDelegate.qml:70
+#: ../qml/delegate/BikeNetworksDelegate.qml:70
+msgid "Latitude"
+msgstr "Breddegrad"
+
+#: ../qml/delegate/BikeStationsDelegate.qml:75
+#: ../qml/delegate/BikeNetworksDelegate.qml:75
+msgid "Longitude"
+msgstr "Lengdegrad"
+
+#: ../qml/delegate/BikeStationsDelegate.qml:80
+msgid "Last check time"
+msgstr "Siste kontrolltid"
+
+#: ../qml/delegate/BikeNetworksDelegate.qml:60
+msgid "Country"
+msgstr "Land"
+
+#: ../qml/delegate/BikeNetworksDelegate.qml:65
+msgid "Network Name"
+msgstr "Nettverksnavn"
